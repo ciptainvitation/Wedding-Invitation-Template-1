@@ -175,10 +175,10 @@ body {
 .tiga-arab {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  font-family: "Domine", serif;
+  font-family: "Noto Naskh Arabic", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 450;
   line-height: 2.3rem;
 }
@@ -977,10 +977,10 @@ body {
 .container-sembilan-doa .sembilan-arab {
   margin-top: 1rem;
   margin-bottom: -1.5rem;
-  font-family: "Domine", serif;
+  font-family: "Noto Naskh Arabic", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 450;
   line-height: 2.3rem;
 }
@@ -1667,10 +1667,10 @@ body {
   .tiga-arab {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    font-family: "Domine", serif;
+    font-family: "Noto Naskh Arabic", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 450;
     line-height: 2.3rem;
   }

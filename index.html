@@ -19,6 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1607,20 +1613,6 @@
         }
       }
       autoslide();
-
-      const nextIcon = document.querySelector(".next");
-      nextIcon.addEventListener("mouseover", function () {
-        clearInterval(deleteInterval);
-      });
-
-      nextIcon.addEventListener("mouseout", autoslide);
-
-      const prevIcon = document.querySelector(".prev");
-      prevIcon.addEventListener("mouseover", function () {
-        clearInterval(deleteInterval);
-      });
-
-      prevIcon.addEventListener("mouseout", autoslide);
 
       function dotsLabel() {
         for (let i = 0; i < dots.length; i++) {
